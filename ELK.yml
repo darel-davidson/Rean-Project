@@ -1,0 +1,8 @@
+- hosts: elkservers
+  remote_user: ec2-user
+  become: yes
+  become_user: root
+  roles:
+  - { role: java }
+  - { role: elasticsearch }
+  - { role: kibana }
