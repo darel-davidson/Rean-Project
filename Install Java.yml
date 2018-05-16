@@ -1,0 +1,6 @@
+---
+
+  tasks:
+  - name: Download Java
+    command: "sudo yum install -y java-1.8.0-openjdk.x86_64"
+    command: "2"
