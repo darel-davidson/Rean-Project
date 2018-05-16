@@ -1,0 +1,10 @@
+---
+#
+# Checking Java 8 is installed
+#
+
+# Add the Java repo
+
+- name: Check Java version is on 8
+    shell: java -version |& awk -F'"' '{print $2}'
+    register: java_version
