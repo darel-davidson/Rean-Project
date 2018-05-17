@@ -11,7 +11,6 @@ Open Putty:
     c. Click Open to start the PuTTY session
   
   - Use the ssh command to connect to the instance. 
-  - private key (.pem) file and ec2-user@public_dns_name.
-  $ ssh -i /path/my-key-pair.pem ec2-user@ec2-198-51-
-  100-1.compute-1.amazonaws.com
-  $ sudo yum update –y
+  - ssh -i "private key(.pem)" ec2-user@public_dns_name.
+  - Run command
+    a. sudo yum update –y
