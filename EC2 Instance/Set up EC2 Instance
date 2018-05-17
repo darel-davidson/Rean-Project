@@ -1,0 +1,17 @@
+Open Putty:
+
+  - In the Category pane, select Session, and complete the following fields:
+    a. In Host Name, enter ec2-user@public_dns_name.
+    b. Port, 22.
+    c. Connection type: SSH
+  
+  - In the Category pane, expand Connection, expand SSH, and then select Auth. Complete the following:
+    a. Click Browse.
+    b. Select the KeyDevOps.ppk file that you downloaded, and then click Open.
+    c. Click Open to start the PuTTY session
+  
+  - Use the ssh command to connect to the instance. 
+  - private key (.pem) file and ec2-user@public_dns_name.
+  $ ssh -i /path/my-key-pair.pem ec2-user@ec2-198-51-
+  100-1.compute-1.amazonaws.com
+  $ sudo yum update –y
