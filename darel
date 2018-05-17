@@ -1,0 +1,61 @@
+cd Downloads/
+chmod 400 TestDevOpsKey.pem
+ssh -i "TestDevOpsKey.pem" ubuntu@ec2-54-227-181-103.compute-1.amazonaws.com
+ssh -v -i "TestDevOpsKey.pem" ec2-user@ec2-54-227-181-103.compute-1.amazonaws.com
+sudo yum update -y
+sudo wget -O/etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+java -version—confirm it is 1.8
+sudo yum install java 1.8.0
+java -version
+sudo yum install java-1.8.0-openjdk-devel
+sudo /usr/sbin/alternatives --config java
+2
+sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+sudo yum install jenkins -y
+sudo service jenkins start
+http://ec2-184-72-163-50.compute-1.amazonaws.com:8080/login?from=%2F
+ec2-184-72-163-50.compute-1.amazonaws.com
+
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+install suggested plugins
+
+
+ssh -v -i "TestDevOpsKey.pem" ec2-user@ec2-34-229-203-1.compute-1.amazonaws.com
+
+http://ec2-34-229-203-1.compute-1.amazonaws.com:8080
+
+DevUserTest
+U$ewizely17
+
+[AWS CLI] Use the describe-regions command as follows to describe the regions for your account.
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
+aws ec2 describe-regions 
+us-east-1
+
+
+Candidate-pawCAFF6BT
+YGWDcsmt733|]{
+
+AKIAJMFYZND2NBESY2JQ
+X/f2EX8/pagEuftXdq2jxRkIwVNQXesuGQO2apdo
+
+
+GET http://169.254.169.254/latest/meta-data/latest/meta-data/hostname; echo
+GET http://169.254.169.254/latest/meta-data/iam/security-credentials/
+
+http://ec2-52-23-194-38.compute-1.amazonaws.com:8080
+ssh -v -i "TestDevOpsKey.pem" ec2-user@ec2-18-204-230-13.compute-1.amazonaws.com
+
+sudo yum install  -y docker
+sudo service docker start
+sudo usermod -a -G docker ec2-user
+
+
+
+ssh -v -i "TestDevOpsKey.pem" ec2-user@ec2-184-72-163-50.compute-1.amazonaws.com
+
+
+#[ec2_linux]
+# ec2-[01-99]-[001-999][001-999]-[01-99].compute-1.amazonaws.com
+ec2-18-204-230-13.compute-1.amazonaws.com
