@@ -1,8 +1,0 @@
----
- - name: Fetch Java version
-   shell: java -version 2>&1 | grep version | awk '{print $3}' | sed 's/"//g'
-   register: java_version
- 
- - assert:
-     that: 
-       - java_version.stdout | version_compare('1.7', '>=')  
