@@ -1,0 +1,8 @@
+
+1. AWS EC2 dashboard
+2. INSTANCES: Launch Instance
+    a) Select: Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type - ami-14c5486b
+    b) Type: t2.micro - > 'Review and Launch'
+    c) Security Groups: 'Edit security groups'
+      i. Select an existing security group: Name -> Dev2ELK
+      ii. Launch
