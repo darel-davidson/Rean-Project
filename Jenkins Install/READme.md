@@ -1,5 +1,5 @@
 
-How I would have used Jenkins
+How I would have used Jenkins (Please view Jenkins defects to view how this plan did not come to fruition)
   1. Install Jenkins on EC2 instance manually by running install commands.
   2. Use Jenkins to connect to EC2 instance. 
   3. Create a job in Jenkins to install ansible.
