@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  serial: 10
+  become: true
+  become_user: root
+  tasks:
+    - name: Check java version
+      shell: "source /usr/bin/java; java -version"
+      register: javaversion
+    - name: display
+      debug: var=javaversion

@@ -1,0 +1,14 @@
+
+
+How I would have used Jenkins
+I struggled with getting Jenkins to connect to EC2 instance once being installed. 
+Which prevented this plan from coming to fruition however here is an outline of my first plan:
+  1. Install Jenkins on EC2 instance manually by running install commands. 
+    -- I believe this could have been automated through EC2, however I was not able to configure that.
+  
+  2. Use Jenkins to connect to EC2 instance. 
+    -- Did not configure. I wanted to use Jenkins to connect to EC2, followed by ansible being installed. 
+    -- Jenkins would then execute ELK installation on the EC2 instance.
+    
+  3. Create a job in Jenkins to install ansible.
+  4. The same job would also use pre-created ansible playbooks to install ELK on each instance the user asks to be created.

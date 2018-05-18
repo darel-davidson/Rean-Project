@@ -1,0 +1,13 @@
+Open Terminal:
+
+  - Change Keypair permisions:
+    a. cd /~directory where KeyDevOps.pem was downloaded 
+    b. execute the following command:
+      chmod 400 KeyDevOps.pem
+
+
+  
+  - Use the ssh command to connect to the instance. 
+  - ssh -i "private key(.pem)" ec2-user@public_dns_name.
+  - Run command
+     sudo yum update –y

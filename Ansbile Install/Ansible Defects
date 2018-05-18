@@ -1,0 +1,22 @@
+How I would have used Ansible:
+
+However here is an outline of my second plan:
+1.1 Create EC2 Instance, Configure EC2 to create an instance with also installing ansbile 
+1.2 Or use a specific cloudformation to have ansible already installed.
+2. Automatically download github playbooks to user EC2 instance.
+3. Have the user execute the ELK.yml playbook, which should trigger installation of Jenkins. 
+4. Once Jenkins is installed the user can kick off the job to install ELK.
+
+Defects:
+1. Longstash yml not completed.
+2. Did not test ELK.yml nor Kibana.yml
+3. I was not able to connect to git hub from EC2 instance, to download and test plays. 
+4. I did not configure the Ansible script to automatically handle user requested input.
+
+Java check and install plays:
+Play to check which version of java is currently installed if less than 1.8:
+ a. sudo yum install java-1.8.0-openjdk-devel
+ b. sudo /usr/sbin/alternatives --config java
+ c. '2'
+    --Example -> Check Java version.
+
