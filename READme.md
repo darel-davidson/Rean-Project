@@ -1,4 +1,5 @@
-Admin steps to install ELK on EC2 instance. 
+Admin steps to install ELK on EC2 instance.
+
 PHASE I. 
  Set up AWS EC2 instance:
   1.	Please access EC2 Instance folder for setup.
