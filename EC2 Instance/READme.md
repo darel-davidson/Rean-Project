@@ -14,3 +14,4 @@
     ii.	If using putty/Windows execute: Windows connect to EC2.
 
 4.	All steps are complete please return proceed back to Rean-Project folder begin Phase 2.
+ 
