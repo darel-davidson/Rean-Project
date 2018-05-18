@@ -1,8 +1,9 @@
 1.	Download Key Pair file
-  a.	Please open ‘EC2 Instance’ folder
-  b.	Please open ‘Key Pair’ folder
-  c.	If using Linux download: KeyDevOps.pem
-  d.	If using putty/Windows download: KeyDevOps.ppk
+
+  a. Please open ‘EC2 Instance’ folder
+  b. Please open ‘Key Pair’ folder
+  c. If using Linux download: KeyDevOps.pem
+  d. If using putty/Windows download: KeyDevOps.ppk
 
 2.	Please open ‘Create Security group’ file
   a.	Execute steps in ‘Create Security group’ document.
