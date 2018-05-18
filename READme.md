@@ -4,10 +4,10 @@ PHASE I.
  Set up AWS EC2 instance:
   1.	Please access EC2 Instance folder for setup.
 
-Phase II.
+PHASE II. 
  Set up Jenkins:
-  2.	Please access Jenkins Install folder for setup.
-
-Phase III.
+  1.	Please access Jenkins Install folder for setup.
+  
+PHASE III. 
  Set up Ansible:
-  3.	Please access Ansible Install folder for setup.
+  1.	Please access Ansible Install folder for setup.
